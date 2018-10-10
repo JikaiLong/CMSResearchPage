@@ -3,6 +3,8 @@ import './App.css';
 import Codeclash from './components/projects/Code Clash/codeclash.js';
 import Codemangler from './components/projects/Code Mangler/codemangler.js';
 import CSSurvey from './components/projects/CS General Survey Research/CSSurvey.js';
+import Genderstudy from './components/projects/Gender Study Research/genderstudy.js';
+
 
 class App extends Component {
   render() {
@@ -23,6 +25,10 @@ class App extends Component {
 
         <li id = 'cssurveysection'>
           <CSSurvey />
+          </li>
+
+        <li id = 'genderstudysection'>
+          <Genderstudy />
           </li>
       </div>
     );
