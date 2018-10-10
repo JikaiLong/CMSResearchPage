@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Codeclash from './components/projects/Code Clash/codeclash.js';
 import Codemangler from './components/projects/Code Mangler/codemangler.js';
+import CSSurvey from './components/projects/CS General Survey Research/CSSurvey.js';
 
 class App extends Component {
   render() {
@@ -18,6 +19,10 @@ class App extends Component {
 
         <li id = 'codemanglersection'>
           <Codemangler />
+          </li>
+
+        <li id = 'cssurveysection'>
+          <CSSurvey />
           </li>
       </div>
     );
