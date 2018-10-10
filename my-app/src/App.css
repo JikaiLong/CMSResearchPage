@@ -1,0 +1,17 @@
+.Title {
+    color:blue;
+    font-size: 300%;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+div.NavBar {
+    position: fixed;
+    top:0;
+    right: 0;
+}
+
+ul.projectHeadings {
+    list-style-position: outside;
+}

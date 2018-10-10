@@ -19,21 +19,23 @@ class App extends Component {
             <Navbar />
           </div>
         </header>
-        <li id = 'codeclashsection'>
-          <Codeclash />
-          </li>
+        <ul class = "projectHeadings">
+          <li id = 'codeclashsection'>
+            <Codeclash />
+            </li>
 
-        <li id = 'codemanglersection'>
-          <Codemangler />
-          </li>
+          <li id = 'codemanglersection'>
+            <Codemangler />
+            </li>
 
-        <li id = 'cssurveysection'>
-          <CSSurvey />
-          </li>
+          <li id = 'cssurveysection'>
+            <CSSurvey />
+            </li>
 
-        <li id = 'genderstudysection'>
-          <Genderstudy />
-          </li>
+          <li id = 'genderstudysection'>
+            <Genderstudy />
+            </li>
+          </ul>
       </div>
     );
   }

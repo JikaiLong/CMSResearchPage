@@ -9,8 +9,14 @@ class cssurvey extends Component {
           <div className = "CSSurveyTitle">
             CSSurvey
             </div>
-          
         </header>
+        
+        <body>
+          <div className = "AboutCSSurvey">
+            This will be about the project. It will be given a more indepth description
+          </div>
+        </body>
+
       </div>
     );
   }
