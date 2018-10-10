@@ -9,6 +9,7 @@ class codeclash extends Component {
           <div className = "CodeclashTitle">
             Code Clash
             </div>
+          
         </header>
       </div>
     );

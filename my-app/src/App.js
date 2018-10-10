@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Codeclash from './components/projects/Code Clash/codeclash.js';
+import Codemangler from './components/projects/Code Mangler/codemangler.js';
 
 class App extends Component {
   render() {
@@ -13,6 +14,10 @@ class App extends Component {
         </header>
         <li id = 'codeclashsection'>
           <Codeclash />
+          </li>
+
+        <li id = 'codemanglersection'>
+          <Codemangler />
           </li>
       </div>
     );
