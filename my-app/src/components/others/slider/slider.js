@@ -4,7 +4,7 @@ import "./slider.css";
 import $ from "jquery";
 
 
-
+// create a nav menu with jquery functionality 
 $(document).ready(function(){
     $('.slide-section').click(function(e){
         var linkHref = $(this).attr('href');
@@ -17,6 +17,7 @@ $(document).ready(function(){
     })
 });
 
+// speed and format control for nav menu slider
 $(document).ready(function(){
     $("#manul").click(function(){
     $("#link").slideToggle(300, "linear");
@@ -27,7 +28,7 @@ $(document).ready(function(){
 class slider extends Component {
 
 
-    
+  // adding list with similar tag format to add more projects sliders  
   render() {
     return (
       <div id = "man">
@@ -37,7 +38,7 @@ class slider extends Component {
             <span id ="link">
                 <li id = "slider1"><a id = "toCodeClash" className = "slide-section" href = "#codeclashsection">Code Clash</a> 
                 </li>
-                <li id = "slider2"><a id = "toCodeMangler"  className = "slide-section" href = "#codemanglersection">Code Mangler</a> 
+                <li id = "slier2"><a id = "toCodeMangler"  className = "slide-section" href = "#codemanglersection">Code Mangler</a> 
                 </li>
                 <li id = "slider3"><a id = "cssurvey" className = "slide-section" href = "#cssurveysection">CS Survey Research</a> 
                 </li>
