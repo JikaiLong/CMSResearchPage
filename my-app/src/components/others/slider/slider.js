@@ -37,11 +37,11 @@ class slider extends Component {
             <span id ="link">
                 <li id = "slider1"><a id = "toCodeClash" className = "slide-section" href = "#codeclashsection">Code Clash</a> 
                 </li>
-                <li id = "slifer2"><a id = "toCodeMangler"  className = "slide-section" href = "#codemanglersection">Code Mangler</a> 
+                <li id = "slider2"><a id = "toCodeMangler"  className = "slide-section" href = "#codemanglersection">Code Mangler</a> 
                 </li>
-                <li id = "slider3"><a id = "toGenderStudy" className = "slide-section" href = "#genderstudy">Gender Study Research</a> 
+                <li id = "slider3"><a id = "cssurvey" className = "slide-section" href = "#cssurveysection">CS Survey Research</a> 
                 </li>
-                <li id = "slifer4"><a id = "toSurveyResearch"  className = "slide-section" href = "#surveyresearch">CS General Survey Research</a> 
+                <li id = "slider4"><a id = "genderstudy"  className = "slide-section" href = "#genderstudysection">Gender Study Research</a> 
                 </li>
           </span>
 
