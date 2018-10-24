@@ -13,7 +13,7 @@ class cssurvey extends Component {
         
         <body>
           <div className = "AboutCSSurvey">
-            This will be about the project. It will be given a more indepth description
+            We will create an universal Computer science survey which can be used to gather useful data from computer science students across all universities in the World
           </div>
         </body>
 

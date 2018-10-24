@@ -9,8 +9,13 @@ class codemangler extends Component {
           <div className = "CodeManglerTitle">
             Code Mangler
             </div>
-          
         </header>
+        <body>
+          <div className = "AboutCodeMangler">
+          
+          </div>
+          <div><a href = "google.ca"> Code Mangler Link </a> </div>
+        </body>
       </div>
     );
   }

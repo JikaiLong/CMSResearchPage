@@ -6,6 +6,7 @@ import Codemangler from './components/projects/Code Mangler/codemangler.js';
 import CSSurvey from './components/projects/CS General Survey Research/CSSurvey.js';
 import Genderstudy from './components/projects/Gender Study Research/genderstudy.js';
 import IdentityAtheneum from './components/projects/Identity Atheneum/identityatheneum.js';
+import CodeReviewer from '.components/projects/Code Reviewer/codereviewer.js';
 
 class App extends Component {
   render() {
@@ -38,6 +39,9 @@ class App extends Component {
 
           <li id = 'identityatheneumsection'>
             <IdentityAtheneum />
+            </li>
+          <li id = 'codereviewersection'>
+            <CodeReviewer />
             </li>
           </ul>
       </div>
