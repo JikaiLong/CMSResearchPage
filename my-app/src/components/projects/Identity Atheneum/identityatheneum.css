@@ -3,6 +3,10 @@
     font-size: 30px;
     padding-bottom: 10px;
     padding-top: 20px;
-    text-decoration: underline;
-    
+    text-decoration: underline;   
 }
+
+img {
+    max-width: 100%;
+}
+

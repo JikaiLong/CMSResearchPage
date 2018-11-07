@@ -24,8 +24,9 @@ class identityatheneum extends Component {
           Started this semester, it is still in very early stage, I hope to have a test version deployed with uoft weblogin in the coming weeks.
           </div>
           <div><a href = "https://github.com/junthehacker/Identity-Atheneum"> IdentityAtheneum </a> </div>
+          <br/>
           <div className = "ImageSection">
-            <div><img src = {samplepic1}/> </div>
+            <div class = "img1"><img src = {samplepic1}/> </div>
             <div><img src = {samplepic2}/> </div>
           </div>
         </body>
