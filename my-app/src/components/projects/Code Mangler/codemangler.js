@@ -15,6 +15,7 @@ class codemangler extends Component {
           
           </div>
           <div><a href = "google.ca"> Code Mangler Link </a> </div>
+          <br/>
         </body>
       </div>
     );

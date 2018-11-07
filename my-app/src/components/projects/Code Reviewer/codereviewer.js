@@ -7,7 +7,7 @@ class codereviewer extends Component {
     return (
       <div className="CodeReviewer">
         <header>
-          <div className = "CodeReviewer">
+          <div className = "CodeReviewerTitle">
             Code Reviewer
             </div>
         </header>

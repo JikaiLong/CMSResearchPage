@@ -19,6 +19,7 @@ class codeclash extends Component {
           we hope to implement authentication with UofT accounts so students can check their code via logging in with their utorid.
           </div>
           <div><a href = "https://github.com/charyung/Code-Clash"> Code Clash Link </a> </div>
+          <br/>
           <div className = "ImageSection">
             <div><img src = {samplepic1}/> </div>
           </div>
